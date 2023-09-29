@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <style>
+        /* Add your styles here */
+
+        /* Responsive design for mobile */
+        @media (max-width: 768px) {
+            /* Adjust styles for smaller screens */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Online Store</h1>
+    </header>
+
+    <main>
+        <section id="product-list">
+            <h2>Product whatever you want buy here</h2>
+            <!-- Product listing goes here -->
+            <div class="product">
+                <h3>Product 1</h3>
+                <p>Price: $30</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>Product 2</h3>
+                <p>Price: $55</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Add more products here -->
+        </section>
+
+        <section id="cart">
+            <h2>Shopping Cart</h2>
+            <!-- Shopping cart goes here -->
+            <div class="cart-item">
+                <p>Product 1 - $30 x 2</p>
+                <button class="remove-from-cart">Remove</button>
+            </div>
+            <!-- Add more cart items here -->
+            <p>Total Items: 2</p>
+            <p>Total Cost: $60</p>
+        </section>
+
+        <section id="checkout">
+            <h2>Checkout</h2>
+            <!-- Checkout form goes here -->
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="address">Address:</label>
+                <textarea id="address" required></textarea>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <button id="place-order">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Online Store</p>
+    </footer>
+
+    <script>
+        // JavaScript code for functionality (e.g., adding/removing from cart) can be added here
+    </script>
+</body>
+</html>
